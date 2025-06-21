@@ -1,0 +1,18 @@
+{
+  "type": "record",
+  "name": "FanEngagement",
+  "fields": [
+    {"name": "FanID", "type": "string"},
+    {"name": "RaceID", "type": "string"},
+    {"name": "Timestamp", "type": "string"},
+    {"name": "Timestamp_unix", "type":{
+           "type": "long",
+           "logicalType": "timestamp-millis"
+         }},
+    {"name": "ViewerLocationCountry", "type": "string"},
+    {"name": "DeviceType", "type": "string"},
+    {"name": "EngagementMetric_secondswatched", "type": "int"},
+    {"name": "PredictionClicked", "type": "boolean"},
+    {"name": "MerchandisingClicked", "type": "boolean"}
+  ]
+}
