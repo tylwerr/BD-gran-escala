@@ -1,0 +1,19 @@
+{
+  "name": "Apache Beam & Airflow ETL",
+  "build": {
+    "dockerfile": "Dockerfile",
+    "context": "."
+  },
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ms-python.python", // Extensión para Python
+        "ms-azuretools.vscode-docker" // Extensión para Docker en VS Code
+        // Agrega cualquier otra extensión que consideres útil
+      ]
+    }
+  },
+  "forwardPorts": [8080, 8081], // Ejemplos: Puerto por defecto de Airflow UI y otros servicios si los usas
+  "postCreateCommand": "pip install apache-beam[gcp] apache-airflow kafka-python", // Comandos para instalar dependencias después de crear el contenedor
+  "remoteUser": "root" // O un usuario no-root si lo defines en tu Dockerfile
+}
