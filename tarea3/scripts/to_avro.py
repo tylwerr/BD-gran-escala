@@ -4,7 +4,6 @@ from datetime import datetime
 import argparse
 import logging
 from pathlib import Path
-import pytz #Para un manejo robusto de zonas horarias si fuera necesario
 
 #Configuracion basica de logging
 logging.basicConfig(level=logging.INFO)

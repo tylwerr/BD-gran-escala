@@ -1,7 +1,39 @@
 from airflow import DAG
 from airflow.operators.bash import BashOperator
+from airflow.operators.python import PythonOperator
 from airflow.utils.dates import days_ago
+from datetime import datetime
 from datetime import timedelta
+import json
+from kafka import KafkaProducer
+
+# Globales
+
+DAG_NAME = 'hrl_fan_engagement_etl'
+BEAM_ETL_COMMAND = 'python to_avro.py --input_path ../input/*.json --output_path ../output/'
+OUTPUT_LOCATION = '../output/'
+KAFKA_BOOTSTRAP_SERVERS = 'localhost:9092'
+KAFKA_TOPIC = 'Our_topic'
+
+def notify_kafka():
+    processed_timestamp = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
+    
+    message = {
+        "event_type": "data_processing_completed",
+        "data_entity": "FanEngagement",
+        "status": "success",
+        "location": OUTPUT_LOCATION,
+        "processed_at": processed_timestamp,
+        "source_system": DAG_NAME
+    }
+
+    producer = KafkaProducer(
+        bootstrap_servers=KAFKA_BOOTSTRAP_SERVERS,
+        value_serializer=lambda v: json.dumps(v).encode('utf-8')
+    )
+    producer.send(KAFKA_TOPIC, message)
+    producer.flush()
+    producer.close()
 
 default_args = {
     'owner': 'airflow',
@@ -9,35 +41,29 @@ default_args = {
     'email_on_failure': False,
     'email_on_retry': False,
     'retries': 1,
-    'retry_delay': timedelta(minutes=5),
+    'retry_delay': timedelta(minutes=5)
 }
 
 with DAG(
-    dag_id='hrl_fan_engagement_etl', #Nombre unico para el DAG
+    dag_id = DAG_NAME,
     default_args=default_args,
     description='ETL para convertir datos de participacion de fans de HRL de JSON a Avro',
-    schedule_interval=timedelta(days=1), #Se ejeutara diariamente
-    start_date=days_ago(1), #Fecha de inicio, por ejemplo, ayer
-    tags=['hrl', 'etl', 'beam', 'kafka'],
+    schedule='@daily',
+    start_date=datetime(2025, 1, 1),
+    catchup=False,
+    tags=['beam', 'kafka', 'json'],
 ) as dag:
+    
     # Tarea 1: Ejecutar la ETL de Apache Beam
     run_beam_etl = BashOperator(
         task_id='run_beam_etl',
-        # Aquí llamarías a tu script de Apache Beam.
-        # Asegúrate de que el script pueda tomar parámetros para las rutas de entrada/salida.
-        # Por ejemplo: python /path/to/your_beam_etl.py --input_path /data/json --output_path /data/avro
-        bash_command='python /opt/airflow/dags/scripts/beam_etl.py --input_path /opt/airflow/data/input/fan_data.jsonl --output_path /opt/airflow/data/output/fan_engagement.avro',
+        bash_command = BEAM_ETL_COMMAND,
     )
 
-        # Tarea 2: Notificar a Kafka
-    # Necesitarás un script o un PythonOperator que envíe el mensaje a Kafka
-    # y calcule processed_timestamp y path_or_bucket.
-    notify_kafka = BashOperator(
+    # Tarea 2: Notificar a Kafka
+    notify_kafka_job = PythonOperator(
         task_id='notify_kafka',
-        bash_command='python /opt/airflow/dags/scripts/kafka_notifier.py '
-                     '--event_type "data_processing_completed" '
-                     '--data_entity "FanEngagement" '
-                     '--status "success" '
-                     '--location "/opt/airflow/data/output/fan_engagement.avro" ' # Ajusta esto dinámicamente si es necesario
-                     '--pipeline_name "{{ dag.dag_id }}"',
+        python_callable=notify_kafka,
     )
+
+    run_beam_etl >> notify_kafka_job
