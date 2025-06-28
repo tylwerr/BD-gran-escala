@@ -1,19 +1,39 @@
+// For format details, see https://aka.ms/devcontainer.json. For config options, see the
+// README at: https://github.com/devcontainers/templates/tree/main/src/python
 {
-  "name": "Apache Beam & Airflow ETL",
-  "build": {
-    "dockerfile": "Dockerfile",
-    "context": "."
-  },
-  "customizations": {
-    "vscode": {
-      "extensions": [
-        "ms-python.python", // Extensión para Python
-        "ms-azuretools.vscode-docker" // Extensión para Docker en VS Code
-        // Agrega cualquier otra extensión que consideres útil
-      ]
-    }
-  },
-  "forwardPorts": [8080, 8081], // Ejemplos: Puerto por defecto de Airflow UI y otros servicios si los usas
-  "postCreateCommand": "pip install apache-beam[gcp] apache-airflow kafka-python", // Comandos para instalar dependencias después de crear el contenedor
-  "remoteUser": "root" // O un usuario no-root si lo defines en tu Dockerfile
+	"name": "Tarea-3",
+	"dockerComposeFile": "docker-compose.yml",
+	"service": "app",
+	"workspaceFolder": "/tarea3",
+
+	// Features to add to the dev container. More info: https://containers.dev/features.
+	"features":{
+		"ghcr.io/devcontainers/features/python:1": {"version": "3.12.10"},
+		"ghcr.io/devcontainers/features/docker-outside-of-docker:1": {}
+	},
+
+	// Use 'forwardPorts' to make a list of ports inside the container available locally.
+	// "forwardPorts": [],
+
+
+	// Use 'postCreateCommand' to run commands after the container is created.
+	"postCreateCommand": "bash /tarea3/scripts/install-airflow.sh && bash /tarea3/scripts/install-dependencies.sh",
+
+	// Configure tool-specific properties.
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"yasunari89.avro-viewer",
+				"tgriesser.avro-schemas",
+				"ms-python.python",
+				"njpwerner.autodocstring",
+				"usernamehw.errorlens",
+				"charliermarsh.ruff",
+				"mechatroner.rainbow-csv"
+			]
+    	}
+	}
+
+	// Uncomment to connect as root instead. More info: https://aka.ms/dev-containers-non-root.
+	// "remoteUser": "root"
 }

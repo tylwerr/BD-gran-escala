@@ -1,0 +1,2 @@
+apache-beam==2.65.0
+confluent-kafka==2.10.0
