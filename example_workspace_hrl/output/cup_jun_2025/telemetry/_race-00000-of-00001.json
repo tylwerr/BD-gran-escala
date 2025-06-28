@@ -1,0 +1,100 @@
+{"EventID": "EVT001", "RaceID": "cup_jun_2025", "Timestamp_s": 34, "EventType": "Collision", "Details": "HRL006 collides with HRL008", "HelicopterID": "HRL006", "Impact": "Minor Damage"}
+{"EventID": "EVT002", "RaceID": "cup_jun_2025", "Timestamp_s": 70, "EventType": "Lap Completion", "Details": "HRL009 completes lap 1", "HelicopterID": "HRL009", "Impact": "None"}
+{"EventID": "EVT003", "RaceID": "cup_jun_2025", "Timestamp_s": 83, "EventType": "Minor Mechanical Glitch", "Details": "Minor engine misfire in HRL008", "HelicopterID": "HRL008", "Impact": "Temporary Speed Reduction"}
+{"EventID": "EVT004", "RaceID": "cup_jun_2025", "Timestamp_s": 128, "EventType": "Minor Mechanical Glitch", "Details": "Rotor instability in HRL007", "HelicopterID": "HRL007", "Impact": "Minor Performance Fluctuation"}
+{"EventID": "EVT005", "RaceID": "cup_jun_2025", "Timestamp_s": 164, "EventType": "Fuel Warning", "Details": "low fuel alert HRL005", "HelicopterID": "HRL005", "Impact": "Monitor Fuel"}
+{"EventID": "EVT006", "RaceID": "cup_jun_2025", "Timestamp_s": 210, "EventType": "Lap Completion", "Details": "HRL007 completes lap 1", "HelicopterID": "HRL007", "Impact": "None"}
+{"EventID": "EVT007", "RaceID": "cup_jun_2025", "Timestamp_s": 247, "EventType": "Overtake", "Details": "HRL003 overtakes HRL005", "HelicopterID": "HRL003", "Impact": "Position Change"}
+{"EventID": "EVT008", "RaceID": "cup_jun_2025", "Timestamp_s": 285, "EventType": "Collision", "Details": "HRL008 collides with HRL009", "HelicopterID": "HRL008", "Impact": "Minor Damage"}
+{"EventID": "EVT009", "RaceID": "cup_jun_2025", "Timestamp_s": 318, "EventType": "Overtake", "Details": "HRL002 overtakes HRL010", "HelicopterID": "HRL002", "Impact": "Position Change"}
+{"EventID": "EVT010", "RaceID": "cup_jun_2025", "Timestamp_s": 344, "EventType": "Lap Completion", "Details": "HRL007 completes lap 2", "HelicopterID": "HRL007", "Impact": "None"}
+{"EventID": "EVT011", "RaceID": "cup_jun_2025", "Timestamp_s": 367, "EventType": "Pilot Maneuver", "Details": "makes daring aerial move HRL006", "HelicopterID": "HRL006", "Impact": "Minor Speed Adjustment"}
+{"EventID": "EVT012", "RaceID": "cup_jun_2025", "Timestamp_s": 422, "EventType": "Pilot Maneuver", "Details": "makes daring aerial move HRL004", "HelicopterID": "HRL004", "Impact": "None"}
+{"EventID": "EVT013", "RaceID": "cup_jun_2025", "Timestamp_s": 458, "EventType": "Overtake", "Details": "HRL010 overtakes HRL004", "HelicopterID": "HRL010", "Impact": "Position Change"}
+{"EventID": "EVT014", "RaceID": "cup_jun_2025", "Timestamp_s": 496, "EventType": "Speed Boost", "Details": "activates temporary speed boost HRL004", "HelicopterID": "HRL004", "Impact": "Speed Increase"}
+{"EventID": "EVT015", "RaceID": "cup_jun_2025", "Timestamp_s": 524, "EventType": "Collision", "Details": "HRL003 collides with HRL002", "HelicopterID": "HRL003", "Impact": "Significant Speed Reduction"}
+{"EventID": "EVT016", "RaceID": "cup_jun_2025", "Timestamp_s": 558, "EventType": "Lap Completion", "Details": "HRL008 completes lap 1", "HelicopterID": "HRL008", "Impact": "None"}
+{"EventID": "EVT017", "RaceID": "cup_jun_2025", "Timestamp_s": 590, "EventType": "Lap Completion", "Details": "HRL010 completes lap 1", "HelicopterID": "HRL010", "Impact": "None"}
+{"EventID": "EVT018", "RaceID": "cup_jun_2025", "Timestamp_s": 642, "EventType": "Minor Mechanical Glitch", "Details": "Minor engine misfire in HRL010", "HelicopterID": "HRL010", "Impact": "Temporary Speed Reduction"}
+{"EventID": "EVT019", "RaceID": "cup_jun_2025", "Timestamp_s": 677, "EventType": "Collision", "Details": "HRL004 collides with HRL005", "HelicopterID": "HRL004", "Impact": "Minor Damage"}
+{"EventID": "EVT020", "RaceID": "cup_jun_2025", "Timestamp_s": 733, "EventType": "Collision", "Details": "HRL008 collides with HRL003", "HelicopterID": "HRL008", "Impact": "Minor Damage"}
+{"EventID": "EVT021", "RaceID": "cup_jun_2025", "Timestamp_s": 792, "EventType": "Speed Boost", "Details": "activates temporary speed boost HRL008", "HelicopterID": "HRL008", "Impact": "Speed Increase"}
+{"EventID": "EVT022", "RaceID": "cup_jun_2025", "Timestamp_s": 830, "EventType": "Speed Boost", "Details": "activates temporary speed boost HRL008", "HelicopterID": "HRL008", "Impact": "Speed Increase"}
+{"EventID": "EVT023", "RaceID": "cup_jun_2025", "Timestamp_s": 867, "EventType": "Fuel Warning", "Details": "low fuel alert HRL002", "HelicopterID": "HRL002", "Impact": "Monitor Fuel"}
+{"EventID": "EVT024", "RaceID": "cup_jun_2025", "Timestamp_s": 876, "EventType": "Speed Boost", "Details": "activates temporary speed boost HRL008", "HelicopterID": "HRL008", "Impact": "Speed Increase"}
+{"EventID": "EVT025", "RaceID": "cup_jun_2025", "Timestamp_s": 930, "EventType": "Speed Boost", "Details": "activates temporary speed boost HRL004", "HelicopterID": "HRL004", "Impact": "Speed Increase"}
+{"EventID": "EVT076", "RaceID": "cup_jun_2025", "Timestamp_s": 2776, "EventType": "Overtake", "Details": "HRL004 overtakes HRL009", "HelicopterID": "HRL004", "Impact": "Position Change"}
+{"EventID": "EVT077", "RaceID": "cup_jun_2025", "Timestamp_s": 2816, "EventType": "Overtake", "Details": "HRL006 overtakes HRL009", "HelicopterID": "HRL006", "Impact": "Position Change"}
+{"EventID": "EVT078", "RaceID": "cup_jun_2025", "Timestamp_s": 2869, "EventType": "Fuel Warning", "Details": "low fuel alert HRL009", "HelicopterID": "HRL009", "Impact": "Monitor Fuel"}
+{"EventID": "EVT079", "RaceID": "cup_jun_2025", "Timestamp_s": 2928, "EventType": "Fuel Warning", "Details": "low fuel alert HRL009", "HelicopterID": "HRL009", "Impact": "Monitor Fuel"}
+{"EventID": "EVT080", "RaceID": "cup_jun_2025", "Timestamp_s": 2967, "EventType": "Minor Mechanical Glitch", "Details": "Rotor instability in HRL001", "HelicopterID": "HRL001", "Impact": "Minor Performance Fluctuation"}
+{"EventID": "EVT081", "RaceID": "cup_jun_2025", "Timestamp_s": 3001, "EventType": "Lap Completion", "Details": "HRL010 completes lap 3", "HelicopterID": "HRL010", "Impact": "None"}
+{"EventID": "EVT082", "RaceID": "cup_jun_2025", "Timestamp_s": 3011, "EventType": "Pilot Maneuver", "Details": "makes daring aerial move HRL002", "HelicopterID": "HRL002", "Impact": "Minor Speed Adjustment"}
+{"EventID": "EVT083", "RaceID": "cup_jun_2025", "Timestamp_s": 3027, "EventType": "Lap Completion", "Details": "HRL003 completes lap 1", "HelicopterID": "HRL003", "Impact": "None"}
+{"EventID": "EVT084", "RaceID": "cup_jun_2025", "Timestamp_s": 3055, "EventType": "Collision", "Details": "HRL007 collides with HRL001", "HelicopterID": "HRL007", "Impact": "Significant Speed Reduction"}
+{"EventID": "EVT085", "RaceID": "cup_jun_2025", "Timestamp_s": 3077, "EventType": "Lap Completion", "Details": "HRL001 completes lap 3", "HelicopterID": "HRL001", "Impact": "None"}
+{"EventID": "EVT086", "RaceID": "cup_jun_2025", "Timestamp_s": 3110, "EventType": "Lap Completion", "Details": "HRL006 completes lap 1", "HelicopterID": "HRL006", "Impact": "None"}
+{"EventID": "EVT087", "RaceID": "cup_jun_2025", "Timestamp_s": 3118, "EventType": "Fuel Warning", "Details": "low fuel alert HRL009", "HelicopterID": "HRL009", "Impact": "Monitor Fuel"}
+{"EventID": "EVT088", "RaceID": "cup_jun_2025", "Timestamp_s": 3164, "EventType": "Overtake", "Details": "HRL003 overtakes HRL002", "HelicopterID": "HRL003", "Impact": "Position Change"}
+{"EventID": "EVT089", "RaceID": "cup_jun_2025", "Timestamp_s": 3205, "EventType": "Speed Boost", "Details": "activates temporary speed boost HRL006", "HelicopterID": "HRL006", "Impact": "Speed Increase"}
+{"EventID": "EVT090", "RaceID": "cup_jun_2025", "Timestamp_s": 3257, "EventType": "Pilot Maneuver", "Details": "performs evasive maneuver HRL002", "HelicopterID": "HRL002", "Impact": "Minor Speed Adjustment"}
+{"EventID": "EVT091", "RaceID": "cup_jun_2025", "Timestamp_s": 3303, "EventType": "Speed Boost", "Details": "activates temporary speed boost HRL005", "HelicopterID": "HRL005", "Impact": "Speed Increase"}
+{"EventID": "EVT092", "RaceID": "cup_jun_2025", "Timestamp_s": 3335, "EventType": "Lap Completion", "Details": "HRL005 completes lap 2", "HelicopterID": "HRL005", "Impact": "None"}
+{"EventID": "EVT093", "RaceID": "cup_jun_2025", "Timestamp_s": 3366, "EventType": "Speed Boost", "Details": "activates temporary speed boost HRL008", "HelicopterID": "HRL008", "Impact": "Speed Increase"}
+{"EventID": "EVT094", "RaceID": "cup_jun_2025", "Timestamp_s": 3395, "EventType": "Collision", "Details": "HRL008 collides with HRL009", "HelicopterID": "HRL008", "Impact": "Minor Damage"}
+{"EventID": "EVT095", "RaceID": "cup_jun_2025", "Timestamp_s": 3427, "EventType": "Pilot Maneuver", "Details": "performs evasive maneuver HRL002", "HelicopterID": "HRL002", "Impact": "None"}
+{"EventID": "EVT096", "RaceID": "cup_jun_2025", "Timestamp_s": 3462, "EventType": "Fuel Warning", "Details": "low fuel alert HRL005", "HelicopterID": "HRL005", "Impact": "Monitor Fuel"}
+{"EventID": "EVT097", "RaceID": "cup_jun_2025", "Timestamp_s": 3480, "EventType": "Overtake", "Details": "HRL009 overtakes HRL008", "HelicopterID": "HRL009", "Impact": "Position Change"}
+{"EventID": "EVT098", "RaceID": "cup_jun_2025", "Timestamp_s": 3518, "EventType": "Overtake", "Details": "HRL010 overtakes HRL001", "HelicopterID": "HRL010", "Impact": "Position Change"}
+{"EventID": "EVT099", "RaceID": "cup_jun_2025", "Timestamp_s": 3537, "EventType": "Collision", "Details": "HRL003 collides with HRL002", "HelicopterID": "HRL003", "Impact": "Minor Damage"}
+{"EventID": "EVT100", "RaceID": "cup_jun_2025", "Timestamp_s": 3548, "EventType": "Minor Mechanical Glitch", "Details": "Rotor instability in HRL008", "HelicopterID": "HRL008", "Impact": "Minor Performance Fluctuation"}
+{"EventID": "EVT026", "RaceID": "cup_jun_2025", "Timestamp_s": 984, "EventType": "Minor Mechanical Glitch", "Details": "Brief power dip detected in HRL005", "HelicopterID": "HRL005", "Impact": "Minor Performance Fluctuation"}
+{"EventID": "EVT027", "RaceID": "cup_jun_2025", "Timestamp_s": 1009, "EventType": "Overtake", "Details": "HRL003 overtakes HRL008", "HelicopterID": "HRL003", "Impact": "Position Change"}
+{"EventID": "EVT028", "RaceID": "cup_jun_2025", "Timestamp_s": 1054, "EventType": "Speed Boost", "Details": "activates temporary speed boost HRL003", "HelicopterID": "HRL003", "Impact": "Speed Increase"}
+{"EventID": "EVT029", "RaceID": "cup_jun_2025", "Timestamp_s": 1084, "EventType": "Overtake", "Details": "HRL010 overtakes HRL005", "HelicopterID": "HRL010", "Impact": "Position Change"}
+{"EventID": "EVT030", "RaceID": "cup_jun_2025", "Timestamp_s": 1125, "EventType": "Pilot Maneuver", "Details": "performs evasive maneuver HRL001", "HelicopterID": "HRL001", "Impact": "None"}
+{"EventID": "EVT031", "RaceID": "cup_jun_2025", "Timestamp_s": 1170, "EventType": "Overtake", "Details": "HRL002 overtakes HRL006", "HelicopterID": "HRL002", "Impact": "Position Change"}
+{"EventID": "EVT032", "RaceID": "cup_jun_2025", "Timestamp_s": 1178, "EventType": "Collision", "Details": "HRL006 collides with HRL002", "HelicopterID": "HRL006", "Impact": "Race Retirement"}
+{"EventID": "EVT033", "RaceID": "cup_jun_2025", "Timestamp_s": 1207, "EventType": "Speed Boost", "Details": "activates temporary speed boost HRL008", "HelicopterID": "HRL008", "Impact": "Speed Increase"}
+{"EventID": "EVT034", "RaceID": "cup_jun_2025", "Timestamp_s": 1236, "EventType": "Overtake", "Details": "HRL007 overtakes HRL009", "HelicopterID": "HRL007", "Impact": "Position Change"}
+{"EventID": "EVT035", "RaceID": "cup_jun_2025", "Timestamp_s": 1270, "EventType": "Minor Mechanical Glitch", "Details": "Brief power dip detected in HRL008", "HelicopterID": "HRL008", "Impact": "Minor Performance Fluctuation"}
+{"EventID": "EVT036", "RaceID": "cup_jun_2025", "Timestamp_s": 1281, "EventType": "Fuel Warning", "Details": "low fuel alert HRL006", "HelicopterID": "HRL006", "Impact": "Monitor Fuel"}
+{"EventID": "EVT037", "RaceID": "cup_jun_2025", "Timestamp_s": 1337, "EventType": "Minor Mechanical Glitch", "Details": "Brief power dip detected in HRL005", "HelicopterID": "HRL005", "Impact": "Temporary Speed Reduction"}
+{"EventID": "EVT038", "RaceID": "cup_jun_2025", "Timestamp_s": 1370, "EventType": "Collision", "Details": "HRL007 collides with HRL006", "HelicopterID": "HRL007", "Impact": "Minor Damage"}
+{"EventID": "EVT039", "RaceID": "cup_jun_2025", "Timestamp_s": 1427, "EventType": "Lap Completion", "Details": "HRL010 completes lap 2", "HelicopterID": "HRL010", "Impact": "None"}
+{"EventID": "EVT040", "RaceID": "cup_jun_2025", "Timestamp_s": 1449, "EventType": "Pilot Maneuver", "Details": "makes daring aerial move HRL002", "HelicopterID": "HRL002", "Impact": "None"}
+{"EventID": "EVT041", "RaceID": "cup_jun_2025", "Timestamp_s": 1495, "EventType": "Lap Completion", "Details": "HRL002 completes lap 1", "HelicopterID": "HRL002", "Impact": "None"}
+{"EventID": "EVT042", "RaceID": "cup_jun_2025", "Timestamp_s": 1533, "EventType": "Lap Completion", "Details": "HRL005 completes lap 1", "HelicopterID": "HRL005", "Impact": "None"}
+{"EventID": "EVT043", "RaceID": "cup_jun_2025", "Timestamp_s": 1574, "EventType": "Fuel Warning", "Details": "low fuel alert HRL008", "HelicopterID": "HRL008", "Impact": "Monitor Fuel"}
+{"EventID": "EVT044", "RaceID": "cup_jun_2025", "Timestamp_s": 1624, "EventType": "Fuel Warning", "Details": "low fuel alert HRL001", "HelicopterID": "HRL001", "Impact": "Monitor Fuel"}
+{"EventID": "EVT045", "RaceID": "cup_jun_2025", "Timestamp_s": 1666, "EventType": "Overtake", "Details": "HRL006 overtakes HRL010", "HelicopterID": "HRL006", "Impact": "Position Change"}
+{"EventID": "EVT046", "RaceID": "cup_jun_2025", "Timestamp_s": 1678, "EventType": "Minor Mechanical Glitch", "Details": "Minor engine misfire in HRL008", "HelicopterID": "HRL008", "Impact": "Minor Performance Fluctuation"}
+{"EventID": "EVT047", "RaceID": "cup_jun_2025", "Timestamp_s": 1727, "EventType": "Lap Completion", "Details": "HRL008 completes lap 2", "HelicopterID": "HRL008", "Impact": "None"}
+{"EventID": "EVT048", "RaceID": "cup_jun_2025", "Timestamp_s": 1769, "EventType": "Collision", "Details": "HRL010 collides with HRL009", "HelicopterID": "HRL010", "Impact": "Significant Speed Reduction"}
+{"EventID": "EVT049", "RaceID": "cup_jun_2025", "Timestamp_s": 1813, "EventType": "Collision", "Details": "HRL010 collides with HRL006", "HelicopterID": "HRL010", "Impact": "Minor Damage"}
+{"EventID": "EVT050", "RaceID": "cup_jun_2025", "Timestamp_s": 1868, "EventType": "Speed Boost", "Details": "activates temporary speed boost HRL008", "HelicopterID": "HRL008", "Impact": "Speed Increase"}
+{"EventID": "EVT051", "RaceID": "cup_jun_2025", "Timestamp_s": 1909, "EventType": "Fuel Warning", "Details": "low fuel alert HRL009", "HelicopterID": "HRL009", "Impact": "Monitor Fuel"}
+{"EventID": "EVT052", "RaceID": "cup_jun_2025", "Timestamp_s": 1920, "EventType": "Fuel Warning", "Details": "low fuel alert HRL002", "HelicopterID": "HRL002", "Impact": "Monitor Fuel"}
+{"EventID": "EVT053", "RaceID": "cup_jun_2025", "Timestamp_s": 1973, "EventType": "Overtake", "Details": "HRL007 overtakes HRL006", "HelicopterID": "HRL007", "Impact": "Position Change"}
+{"EventID": "EVT054", "RaceID": "cup_jun_2025", "Timestamp_s": 1998, "EventType": "Overtake", "Details": "HRL003 overtakes HRL001", "HelicopterID": "HRL003", "Impact": "Position Change"}
+{"EventID": "EVT055", "RaceID": "cup_jun_2025", "Timestamp_s": 2009, "EventType": "Overtake", "Details": "HRL003 overtakes HRL001", "HelicopterID": "HRL003", "Impact": "Position Change"}
+{"EventID": "EVT056", "RaceID": "cup_jun_2025", "Timestamp_s": 2051, "EventType": "Minor Mechanical Glitch", "Details": "Rotor instability in HRL009", "HelicopterID": "HRL009", "Impact": "Temporary Speed Reduction"}
+{"EventID": "EVT057", "RaceID": "cup_jun_2025", "Timestamp_s": 2090, "EventType": "Overtake", "Details": "HRL007 overtakes HRL005", "HelicopterID": "HRL007", "Impact": "Position Change"}
+{"EventID": "EVT058", "RaceID": "cup_jun_2025", "Timestamp_s": 2121, "EventType": "Minor Mechanical Glitch", "Details": "Minor engine misfire in HRL006", "HelicopterID": "HRL006", "Impact": "Temporary Speed Reduction"}
+{"EventID": "EVT059", "RaceID": "cup_jun_2025", "Timestamp_s": 2155, "EventType": "Pilot Maneuver", "Details": "performs evasive maneuver HRL004", "HelicopterID": "HRL004", "Impact": "None"}
+{"EventID": "EVT060", "RaceID": "cup_jun_2025", "Timestamp_s": 2184, "EventType": "Pilot Maneuver", "Details": "performs evasive maneuver HRL005", "HelicopterID": "HRL005", "Impact": "Minor Speed Adjustment"}
+{"EventID": "EVT061", "RaceID": "cup_jun_2025", "Timestamp_s": 2205, "EventType": "Minor Mechanical Glitch", "Details": "Brief power dip detected in HRL005", "HelicopterID": "HRL005", "Impact": "Minor Performance Fluctuation"}
+{"EventID": "EVT062", "RaceID": "cup_jun_2025", "Timestamp_s": 2249, "EventType": "Lap Completion", "Details": "HRL001 completes lap 1", "HelicopterID": "HRL001", "Impact": "None"}
+{"EventID": "EVT063", "RaceID": "cup_jun_2025", "Timestamp_s": 2297, "EventType": "Speed Boost", "Details": "activates temporary speed boost HRL003", "HelicopterID": "HRL003", "Impact": "Speed Increase"}
+{"EventID": "EVT064", "RaceID": "cup_jun_2025", "Timestamp_s": 2351, "EventType": "Lap Completion", "Details": "HRL001 completes lap 2", "HelicopterID": "HRL001", "Impact": "None"}
+{"EventID": "EVT065", "RaceID": "cup_jun_2025", "Timestamp_s": 2401, "EventType": "Overtake", "Details": "HRL005 overtakes HRL008", "HelicopterID": "HRL005", "Impact": "Position Change"}
+{"EventID": "EVT066", "RaceID": "cup_jun_2025", "Timestamp_s": 2446, "EventType": "Overtake", "Details": "HRL007 overtakes HRL006", "HelicopterID": "HRL007", "Impact": "Position Change"}
+{"EventID": "EVT067", "RaceID": "cup_jun_2025", "Timestamp_s": 2467, "EventType": "Fuel Warning", "Details": "low fuel alert HRL007", "HelicopterID": "HRL007", "Impact": "Monitor Fuel"}
+{"EventID": "EVT068", "RaceID": "cup_jun_2025", "Timestamp_s": 2490, "EventType": "Pilot Maneuver", "Details": "makes daring aerial move HRL003", "HelicopterID": "HRL003", "Impact": "Minor Speed Adjustment"}
+{"EventID": "EVT069", "RaceID": "cup_jun_2025", "Timestamp_s": 2544, "EventType": "Overtake", "Details": "HRL010 overtakes HRL005", "HelicopterID": "HRL010", "Impact": "Position Change"}
+{"EventID": "EVT070", "RaceID": "cup_jun_2025", "Timestamp_s": 2561, "EventType": "Lap Completion", "Details": "HRL004 completes lap 1", "HelicopterID": "HRL004", "Impact": "None"}
+{"EventID": "EVT071", "RaceID": "cup_jun_2025", "Timestamp_s": 2572, "EventType": "Minor Mechanical Glitch", "Details": "Rotor instability in HRL001", "HelicopterID": "HRL001", "Impact": "Temporary Speed Reduction"}
+{"EventID": "EVT072", "RaceID": "cup_jun_2025", "Timestamp_s": 2615, "EventType": "Speed Boost", "Details": "activates temporary speed boost HRL010", "HelicopterID": "HRL010", "Impact": "Speed Increase"}
+{"EventID": "EVT073", "RaceID": "cup_jun_2025", "Timestamp_s": 2661, "EventType": "Speed Boost", "Details": "activates temporary speed boost HRL008", "HelicopterID": "HRL008", "Impact": "Speed Increase"}
+{"EventID": "EVT074", "RaceID": "cup_jun_2025", "Timestamp_s": 2713, "EventType": "Collision", "Details": "HRL001 collides with HRL005", "HelicopterID": "HRL001", "Impact": "Minor Damage"}
+{"EventID": "EVT075", "RaceID": "cup_jun_2025", "Timestamp_s": 2720, "EventType": "Pilot Maneuver", "Details": "makes daring aerial move HRL004", "HelicopterID": "HRL004", "Impact": "Minor Speed Adjustment"}

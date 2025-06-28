@@ -1,0 +1,35 @@
+{
+    "doc": "Earthquake information.",
+    "name": "Earthquake",
+    "namespace": "test",
+    "type": "record",
+    "fields": [
+        {"name": "UTC_Date", "type": {
+           "type": "long",
+           "logicalType": "timestamp-millis"
+         }},
+        {"name": "Profundity", "type": "string"},
+        {"name": "Magnitude", "type": "string"},
+        {"name": "Date", "type": {
+          "type": "int",
+          "logicalType": "date"
+        }},
+        {"name": "Hour", "type": {
+          "type": "int",
+          "logicalType": "time-millis"
+        }},
+        {"name": "Location", "type": "string"},
+        {"name": "Latitude", "type": {
+          "type": "bytes",
+          "logicalType": "decimal",
+          "precision": 5,
+          "scale": 3
+        }},
+      {"name": "Longitude", "type": {
+          "type": "bytes",
+          "logicalType": "decimal",
+          "precision": 6,
+          "scale": 3
+        }}
+    ]
+}
