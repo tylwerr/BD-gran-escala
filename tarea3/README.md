@@ -1,3 +1,6 @@
+# Consideración
+Para que todo funcione la carpeta output debe estar vacía.
+
 # Contenedor
 
 1. Tener instalado Docker Desktop y devcontainers (extensión de Visual Studio Code).
