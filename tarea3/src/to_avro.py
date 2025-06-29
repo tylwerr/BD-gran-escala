@@ -85,7 +85,7 @@ def run():
     parser.add_argument(
         '--runner',
         dest='runner',
-        default='DirectRunner', # DirectRunner para pruebas locales
+        default='DirectRunner', #para pruebas locales
         help='El runner de Beam a utilizar (e.g., DirectRunner, DataflowRunner).')
     
     args, beam_args = parser.parse_known_args()
