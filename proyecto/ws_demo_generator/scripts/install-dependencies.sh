@@ -1,4 +1,5 @@
-#!/usr/bin/bash 
+#!/usr/bin/bash
+set -e
 cp requirements.txt /tmp/
 cd /tmp/
 # install dependencies for dvirtz.parquet-viewer vscode plugin
@@ -11,4 +12,4 @@ yarn add parquet-wasm
 python3 -m pip install --upgrade pip
 pip3 install --user -r requirements.txt
 #  Command line (CLI) tool to inspect Apache Parquet files on the go
-pip install parquet-cli 
+pip install parquet-cli

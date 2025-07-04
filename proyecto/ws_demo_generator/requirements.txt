@@ -1,5 +1,5 @@
 fastavro==1.10.0 
-pyarrow==19.0.1
+pyarrow==16.1.0
 pandas==2.2.3
 python-snappy==0.7.3
 apache-beam==2.65.0

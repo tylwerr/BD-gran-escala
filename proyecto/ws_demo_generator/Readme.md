@@ -56,16 +56,16 @@ terraform plan --file-name prod.tfvars
 
 ## Print in terminal
 
-`python  src/random_data_generator.py `
+`python src/random_data_generator.py `
 
 
 Create 2 records and show in terminal
 
-`python  src/random_data_generator.py --num_records 2`
+`python src/random_data_generator.py --num_records 2`
 
 ## Store in local file
 
-`python  src/random_data_generator.py --output file_path --output_path output.json --num_records 2 `
+`python src/random_data_generator.py --output file_path --output_path output/data.json --num_records 10 `
 
 
 ## Store in a file in a bucket minio
