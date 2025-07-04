@@ -28,7 +28,7 @@ class ProcessRecord(beam.DoFn):
 
 def run_streaming_pipeline(bootstrap_servers, topic, output_path, beam_args=None):
     options = PipelineOptions(beam_args)
-    options.view_as(StandardOptions).streaming = True
+    options.view_as(StandardOptions).streaming = True #código se mantendrá ejecutándose siempre leyendo mensajes
 
     with beam.Pipeline(options=options) as pipeline:
         (

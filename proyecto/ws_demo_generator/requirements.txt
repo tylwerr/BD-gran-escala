@@ -1,7 +1,0 @@
-fastavro==1.10.0 
-pyarrow==16.1.0
-pandas==2.2.3
-python-snappy==0.7.3
-apache-beam==2.65.0
-confluent-kafka==2.10.0
-minio==7.2.15
