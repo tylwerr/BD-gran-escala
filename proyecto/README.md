@@ -1,6 +1,8 @@
 # Consideración
 Para que todo funcione la carpeta output debe estar vacía.
 
+Debe asegurarse de que en los archivos .sh su Visual Studio Code tenga marcado el Select End of Line Sequence como "LF" y no "CRLF".
+
 # Contenedor
 
 1. Tener instalado Docker Desktop y devcontainers (extensión de Visual Studio Code).
